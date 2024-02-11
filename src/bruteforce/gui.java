@@ -231,7 +231,7 @@ class DialogRand extends gui implements ActionListener{
 		titlenumToken.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titlenumToken.setBackground(new Color(208,237,87));
 		titlenumToken.setOpaque(true);
-		titlenumToken.setBounds(0, 0, 370, 20);
+		titlenumToken.setBounds(0, 0, 380, 20);
 		numTokenL.add(titlenumToken);
 		
 		NumberFormat format = NumberFormat.getInstance();
@@ -291,7 +291,7 @@ class DialogRand extends gui implements ActionListener{
 	    titleToken.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 	    titleToken.setBackground(new Color(208,237,87));
 	    titleToken.setOpaque(true);
-	    titleToken.setBounds(0, 0, 370, 20);
+	    titleToken.setBounds(0, 0, 380, 20);
 	    token.add(titleToken);
 	    
 	    tokenAllowed = new JFormattedTextField();
@@ -320,7 +320,7 @@ class DialogRand extends gui implements ActionListener{
 		titleBuf.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titleBuf.setBackground(new Color(208,237,87));
 		titleBuf.setOpaque(true);
-		titleBuf.setBounds(0, 0, 370, 20);
+		titleBuf.setBounds(0, 0, 380, 20);
 	    numBufL.add(titleBuf);
 	    
 	    numBuf = new JFormattedTextField(max16);
@@ -345,7 +345,7 @@ class DialogRand extends gui implements ActionListener{
 		titleN.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titleN.setBackground(new Color(208,237,87));
 		titleN.setOpaque(true);
-		titleN.setBounds(0, 0, 370, 20);
+		titleN.setBounds(0, 0, 380, 20);
 	    nMatL.add(titleN);
 	    
 	    nMat = new JFormattedTextField(max7);
@@ -370,7 +370,7 @@ class DialogRand extends gui implements ActionListener{
 		titleM.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titleM.setBackground(new Color(208,237,87));
 		titleM.setOpaque(true);
-		titleM.setBounds(0, 0, 370, 20);
+		titleM.setBounds(0, 0, 380, 20);
 	    mMatL.add(titleM);
 	    
 	    mMat = new JFormattedTextField(max7);
@@ -395,7 +395,7 @@ class DialogRand extends gui implements ActionListener{
 		titleSeq.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titleSeq.setBackground(new Color(208,237,87));
 		titleSeq.setOpaque(true);
-		titleSeq.setBounds(0, 0, 370, 20);
+		titleSeq.setBounds(0, 0, 380, 20);
 		numSeqL.add(titleSeq);
 		
 		numSeq = new JFormattedTextField(max16);
@@ -420,7 +420,7 @@ class DialogRand extends gui implements ActionListener{
 		titleMaxSeq.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titleMaxSeq.setBackground(new Color(208,237,87));
 		titleMaxSeq.setOpaque(true);
-		titleMaxSeq.setBounds(0, 0, 370, 20);
+		titleMaxSeq.setBounds(0, 0, 380, 20);
 		maxSeqL.add(titleMaxSeq);
 		
 		maxSeq = new JFormattedTextField(max7);
