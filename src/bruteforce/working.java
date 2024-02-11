@@ -316,6 +316,10 @@ public class working {
 			chosen.pop();
 			bs.set(i, (byte)0);
 		}
+		if(working.maxReward <= 0){
+			working.maxReward = Integer.MIN_VALUE;
+			working.bufLeng = 0;
+		}
 		long estimatedTime = System.nanoTime() - startTime;
 		long timeinMillis = TimeUnit.NANOSECONDS.toMillis(estimatedTime);
 		//System.out.println(maxReward);
