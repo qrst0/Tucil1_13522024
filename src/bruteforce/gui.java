@@ -533,7 +533,7 @@ class DialogRand extends gui implements ActionListener{
 			boolean exist = true;
 			int cntRedo = 0;
 			while(exist) {
-				if(cntRedo == 10) {
+				if(cntRedo == 100) {
 					return false;
 				}
 				int len = ran.nextInt(Maxi) + 1;
