@@ -168,6 +168,9 @@ class tokenValidator extends gui{
 								seqStr += " ";
 							}
 						}
+						if(splitted.length < 2){
+							return false;
+						}
 						seqStr += '\n';
 						String num = br.readLine();
 						if(num == null) {
@@ -515,6 +518,9 @@ class DialogRand extends gui implements ActionListener{
 		int M = Integer.parseInt(mMat.getText());
 		int Q = Integer.parseInt(numSeq.getText());
 		int Maxi = Integer.parseInt(maxSeq.getText());
+		if(Maxi == 1){
+			return false;
+		}
 		int T = Integer.parseInt(numToken.getText());
 		Random ran = new Random();
 		String matrixStr = "";
