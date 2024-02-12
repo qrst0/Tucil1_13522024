@@ -3,6 +3,10 @@
 ## Identitas
 Kristo Anugrah          (13522024)
 
+## Preview
+![alt text](/results/previewguisolver.png)
+![alt text](/results/previewguisolved.png)
+
 ## Deskripsi Program
 Program berbasis GUI yang mensimulasikan puzzle Breach Protocol pada game Cyberpunk 2077. Program mencari solusi yang optimal dengan algoritma Brute Force. Pengguna dapat membuat puzzle secara acak, memasukan input dari file .txt, atau memasukan input manual dari GUI.
 
@@ -30,10 +34,6 @@ Direktori tugas kecil ini memiliki struktur file sebagai berikut:
         test2.txt
         ...
 ```
-
-## Preview
-![alt text](/results/previewguisolver.png)
-![alt text](/results/previewguisolved.png)
 
 ## Dependensi
 * Java 19.0.2 ke atas
