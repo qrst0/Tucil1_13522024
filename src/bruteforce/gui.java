@@ -543,6 +543,9 @@ class DialogRand extends gui implements ActionListener{
 					return false;
 				}
 				int len = ran.nextInt(Maxi) + 1;
+				if(len == 1){
+					len += 1;
+				}
 				String seqNow = "";
 				List<String> temp = new ArrayList<String>();
 				for(int j = 0; j < len; ++j) {
