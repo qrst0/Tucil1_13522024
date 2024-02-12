@@ -37,5 +37,5 @@ Direktori tugas besar ini memiliki struktur file sebagai berikut:
 ## Cara Menjalankan Program
 1. Download ZIP atau clone repository
 2. Jalankan program terminal (misalnya Command Prompt, Powershell, dan semacamnya).
-3. Pindah current directory ke folder Tucil1__13522024, yaitu `(folder download)\Algeo01-22002\`.
-5. Jalankan command `java bruteforce.gui` untuk memulai program.
+3. Pindah current directory ke folder Tucil1__13522024, yaitu `(folder download)\Algeo01-22002`.
+4. Jalankan command `java bruteforce.gui` untuk memulai program.
