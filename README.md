@@ -29,7 +29,7 @@ Direktori tugas besar ini memiliki struktur file sebagai berikut:
         test1.txt
         test2.txt
         ...
-
+```
 
 ## Dependensi
 * Java 19.0.2 ke atas
