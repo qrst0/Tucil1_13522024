@@ -31,8 +31,12 @@ Direktori tugas kecil ini memiliki struktur file sebagai berikut:
         ...
 ```
 
+## Preview
+![alt text](/results/previewguisolved.png)
+
 ## Dependensi
 * Java 19.0.2 ke atas
+* Window berukuran setidaknya 1028 x 768
 
 ## Cara Menjalankan Program
 1. Download ZIP atau clone repository
