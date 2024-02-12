@@ -418,7 +418,7 @@ class DialogRand extends gui implements ActionListener{
 		maxSeqL.setBorder(BorderFactory.createLineBorder(new Color(208,237,87), 5));
 		maxSeqL.setLayout(null);
 		
-		JLabel titleMaxSeq = new JLabel("MAXIMUM SEQUENCE LENGTH (1-7)");
+		JLabel titleMaxSeq = new JLabel("MAXIMUM SEQUENCE LENGTH (2-7)");
 		titleMaxSeq.setFont(gui.customFont.deriveFont(12f));
 		titleMaxSeq.setBorder(BorderFactory.createEmptyBorder(0, 10, 0, 0));
 		titleMaxSeq.setBackground(new Color(208,237,87));
