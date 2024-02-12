@@ -31,8 +31,13 @@ Direktori tugas kecil ini memiliki struktur file sebagai berikut:
         ...
 ```
 
+## Preview
+![alt text](/results/previewguisolver.png)
+
 ## Dependensi
 * Java 19.0.2 ke atas
+* Window berukuran setidaknya 1024 x 768
+* 250 MB RAM
 
 ## Cara Menjalankan Program
 1. Download ZIP atau clone repository
