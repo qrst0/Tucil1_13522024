@@ -32,7 +32,7 @@ Direktori tugas kecil ini memiliki struktur file sebagai berikut:
 ```
 
 ## Preview
-![alt text](/results/previewguisolved.png)
+![alt text](/results/previewguisolver.png)
 
 ## Dependensi
 * Java 19.0.2 ke atas
