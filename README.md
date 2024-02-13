@@ -33,7 +33,7 @@ Direktori tugas kecil ini memiliki struktur file sebagai berikut:
 │       test1.txt
 │       test2.txt
 │       ...
-└───results
+└───results                             # Folder penyimpanan file .txt
         previewguisolved.png
         ...
 ```
