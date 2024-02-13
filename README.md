@@ -25,13 +25,16 @@ Direktori tugas kecil ini memiliki struktur file sebagai berikut:
 │   └───bruteforce
 │          gui.java
 │          working.java
-└───assets                              # Aset program (.jpg, .ttf)
+├───assets                              # Aset program (.jpg, .ttf)
 │       BoxedSemibold.ttf
 │       bpprotocol.jpg
 │       buffersq.png
-└───test                                # Solusi jawaban data uji
-        test1.txt
-        test2.txt
+├───test                                # Solusi jawaban data uji
+│       test1.txt
+│       test2.txt
+│       ...
+└───results
+        previewguisolved.png
         ...
 ```
 
